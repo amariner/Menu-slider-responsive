@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Easy responsive menu</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/skeleton.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- 1. Add latest jQuery and fancybox files -->
+
+</head>
+<body>
+ <!-- partial:index.partial.html -->
+<div class="menu-icon">
+	<span class="menu-icon__line menu-icon__line-left"></span>
+	<span class="menu-icon__line"></span>
+	<span class="menu-icon__line menu-icon__line-right"></span>
+</div>
+
+<div class="nav">
+	<div class="nav__content">
+		<ul class="nav__list">
+      <li class="nav__list-item"><a class="active-menu"  href="index.html">HOME</a></li>
+      <li class="nav__list-item"><a href="#">ABOUT</a></li>
+      <li class="nav__list-item"><a href="#">TECNOLOGY</a></li>
+      <li class="nav__list-item"><a href="#">TREND</a></li>
+      <li class="nav__list-item"><a class="active-menu" href="#">EN</a> | <a href="#">CAT</a></li>
+      
+		</ul>
+	</div>
+</div>
+
+<div class="site-content">
+	
+  <!--Menu-->
+    <header class="row menu">
+      <div class="container">
+        <div class="logo">
+          <a href="/">
+            <img src="src/images/logo.svg">
+          </a>
+        </div>
+        <ul class="menu-items">
+          <li class=""><a class="active-menu"  href="index.html">HOME</a></li>
+          <li class="menu-item"><a href="#">ABOUT</a></li>
+          <li class="menu-item"><a href="#">TECNOLOGY</a></li>
+          <li class="menu-item"><a href="#">TREND</a></li>
+          <li class="" style="margin-right: 0;"><a class="active-menu" href="#">EN</a> | <a href="#">CAT</a></li>
+        </ul>
+      </div>
+    </header>
+  <!--Menu fin-->
+  <!--Slider-->
+    <div class="u-full-width slider">
+      
+        <div class="container">
+          <h1>
+            
+            Mobile<br>
+            control<br>
+            systems
+          </h1>
+          <div class="play">
+             <img src="src/images/play.svg" alt=""> 
+            <span>Playing video</span> 
+          </div>
+        </div>
+        
+    </div>
+  </div>  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script  src="src/js/menu.js"></script>
+</body>
+</html>
